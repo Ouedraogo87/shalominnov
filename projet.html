@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>Entreprise d'installation de la connexion wi-fi</title>
+        <link rel="stylesheet" href="projet.css">
+    </head>
+    <body>
+        <header>
+            <h1>Bienvenue chez SHALOM INNOV CENTER</h1>
+            <nav>
+               <a href="#acceuil">Acceuil</a>
+               <a href="#apropos">A propos</a>
+               <a href="#services">Services</a>
+               <a href="#projets">Projets</a>
+               <a href="#softskills">Softskills</a>
+               <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <section id="acceuil">
+            <h2>Qui sommes-nous ?</h2>
+            <img src="images/Logo.jpg"
+            alt="Shalom innov center" width="300">
+            <p>Chez <span class="entreprise">SHALOM INNOV CENTER,</span> nous nous spécialisons dans l'installation de reseaux wi-fi
+                pour les particuliers et les entreprises. Nous garantissons une connexion fiable
+                et optimale.
+            </p>
+            <button><a href="#projet">Voir nos projet</a></button>
+        </section>
+        <section id="apropos" class="apropos">
+            <h2>A propos de nous</h2>
+            <div class="apropos-container">
+                <div class="profil-text">
+            <p>Je suis <span class="nom">PAUL OUEDRAOGO,</span>
+                 technicien reseau de <span class="entreprise">SHALOM INNOV CENTER</span>
+                avec une expertise en installation et optimisation des réseaux.
+                j'ai plusieurs années d'expériences dans les installations et maintenances des reseaux.
+            </p>
+            </div>
+            <div class="profil-image">
+                <img src="images/Congratulation.jpg" alt="image d'intallation" width="300">
+            </div>
+            </div>
+            <button><a href="CV.pdf"download>Telecharger mon CV</a></button>
+        </section>
+        <section id="services" class="services">
+            <h2>Nos services</h2>
+            <div class="services-card">
+                <h3>Consulter nos services</h3>
+            <img src="images/Affiche.jpg"
+            alt="nos différents services" width="300">
+            <p>Nous proposons des services d'installation, de maintenances de reseaux,
+                Installations et activations starlink, ainsi que des formations pour les
+                entreprises et les particuliers.
+            </p>
+            </div>
+            <div class="services-card">
+                <h3>Configuration et cablâge reseaux</h3>
+                <img src="images/équipe.jpg"
+                alt="configuration réseaux" width="300">
+                <p>Nous prenons en charges le cablâge et la configuration de votre 
+                    réseaux pour garantir la sécurité et la performance.
+                </p>
+            </div>
+            <button><a href="#">Voirs plus </a></button>
+        </section>
+        <section id="projets" class="projets">
+            <h2>Nos projets</h2>
+            <div class="projets-card">
+                <h3>Installation wi-fi pour un particulier</h3>
+                <img src="images/Installation.jpg"
+                alt="Installation wi-fi pour particulier" width="300">
+                <p>Installations wi-fi pour un particulier avec optimisation 
+                    de la couverture et sécurité renforcée.
+                </p>
+            </div>
+            <div class="projets-card">
+                <h3>Installation et activation starlink</h3>
+                <img src="images/Configurationstarlink.jpg"
+                alt="installation starlink" width="300">
+                <p>Installation puis activation d'un reseau starlink pour une entreprise
+                    de 500m², avec configuration d'un routeur performant.
+                </p>
+            </div>
+            <button><a href="voir projets">Voir tous nos projets</a></button>
+        </section>
+        <section id="softskills" class="softskills">
+            <h2>Nos compétences</h2>
+                <div class="softskills-container">
+            <h3>Voici quelques compétences qui nous définissent</h3>
+            </div>
+                <ul>
+               <li>Adaptativité</li>
+               <progress id="progress1" value="80" max="100"></progress>
+                <li>Travail d'équipe</li>
+                <progress id="progress2" value="60" max="100"></progress>
+               <li>Résolution de problème</li>
+               <progress id="progress3" value="70" max="100"></progress>
+                <li>Service client</li>
+                <progress id="progress4" value="50" max="100"></progress>
+                <li>Communication claire et éfficace</li>
+                <progress id="progress5" value="90" max="100"></progress>
+                <li>Sécurité réseaux</li>
+                <progress id="progress6" value="75" max="100"></progress>
+                </ul>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contactez-nous</h2>
+            <h3>Vous pouvez nous contactez pour plus d'informations:</h3>
+            <ul>
+                <li>Email: <a href="mailto:shalom.innov1@gmail.com">
+                    shalom.innov1@gmail.com
+                </a></li>
+                <br>
+            <li>Téléphone: <a href="tel:+22662375787 / +22664569239">
+                +22662375787 / +22664569239
+            </a></li>
+            </ul>
+            <p>Où via ce formulaire</p>
+            <form id="contact-form">
+                <label for="first-name">Votre prénom</label>
+                <input type="text" id="first-name" name="first-name" required>
+                <label for="last-name">Votre nom</label>
+                <input type="text" id="last-name" name="last-name" required>
+                <label for="email">Votre email</label>
+                <input type="text" id="email" name="email" required>
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2026 SHALOM INNOV CENTER - tout droits réservés</p>
+        </footer>
+        <script src="projet.js"></script>
+        </body>
+        </html>

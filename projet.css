@@ -1,0 +1,312 @@
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(47, 39, 39);
+    color: gray;
+    margin: 10;
+    padding: 20;
+    align-items: center;
+    text-align: center;
+}
+header{
+    background-color: darkslategray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+    margin: 15px;
+    background-color: rgba(165, 164, 164, 0.833);
+    color: black;
+    margin: 15px;
+    padding: 10px;
+}
+#acceuil {
+    text-align: center;
+}
+#acceuil p {
+    font-size: 1.2rem;
+    color: rgba(13, 16, 109);
+}
+#acceuil img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10%;
+}
+.nom {
+    color: lightgreen;
+    font-weight: bold;
+}
+.entreprise {
+    color: rgb(87, 205, 140);
+    font-weight: bold;
+}
+#apropos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+#apropos .profil-text {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: rgb(13, 16, 109);
+}
+#apropos .profil-image img {
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+}
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    font-size: 3vw;
+    color: darkslategray;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.services-card {
+    background-color: rgb(229, 227, 227);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 5%;
+    width: 45%;
+    margin: 2% auto;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+.services-card img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10%;
+}
+.services-card h3 {
+    font-size: 3vw;
+    color: darkslategray;
+}
+.services-card p {
+    font-size: 1.5vw;
+    color: rgb(48, 48, 48);
+}
+#projets{
+    text-align: center;
+}
+#projets .projets-card img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    height: auto;
+    border-radius: 8px;
+}
+#projets .projets-card {
+    background-color: rgb(229, 227, 227);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 4%;
+    margin-bottom: 5%;
+    transition: all 0.3s ease-in-out;
+    width: 60%;
+    margin-left: 5%;
+    margin: 2% auto;
+    margin-right: 15%;
+    text-align: center;
+}
+#projets .projets-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+#projets .projets-card h3 {
+    font-size: 3vw;
+    color: darkslategray;
+    margin-top: 15px;
+}
+#projets .projets-card p {
+    color: rgb(36, 36, 36);
+    font-size: 1.5vw;
+}
+#softskills {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: left;
+}
+.softskills h2 {
+    text-align: center;
+    color: darkslategray;
+    font-size: 2rem;
+}
+.softskills h3 {
+    text-align: center;
+    color:darkslategray ;
+    font-size: 2rem;
+}
+.softskills-container ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.softskills-container li {
+    font-size: 2vw;
+    margin: 3% 0;
+    text-align: left;
+}
+progress {
+    width: 90%;
+    height: 2vw;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: gainsboro;
+    transition: width 2s ease-in-out;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: floralwhite;
+    border-radius: 10px;
+}
+progress[value]::-webkit-progress-value {
+    background-color: mediumseagreen;
+    border-radius: 10px;
+    width: 0%;
+}
+body {
+    animation: fillprogress 3s forwards
+}
+#contact-form {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+#contact label {
+    display: block;
+    font-size: 1.5vw;
+    margin-bottom: 2%;
+}
+#contact input,
+#contact textarea {
+    width: 80%;
+    padding: 3%;
+    margin-bottom: 5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2vw;
+    margin: 5px;
+    padding: 10px;
+}
+#contact h2 {
+    font-size: 4vw;
+    margin-bottom: 5%;
+}
+#contact a {
+    color: rgb(66, 10, 248);
+    text-decoration: none;
+    font-size: 2vw;
+}
+#contact a:hover {
+    text-decoration: underline;
+}
+#contact button {
+    padding: 1% 5%;
+    width: auto;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+    background-color: blue;
+}
+#contact textarea {
+    padding: 3%;
+    height: 100px;
+    width: 80%;
+}
+#contact p {
+    font-size: 1.5rem;
+    color: black;
+}
+button {
+    padding: 1% 5%;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 2vw;
+    text-decoration: none;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+button:hover {
+    background-color: mediumseagreen;
+    color: white;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+button a {
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: darkslategray;
+    color: white;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 90%;
+    }
+    header h1 {
+        font-size: 6vw;
+    }
+    nav a {
+        font-size: 4vw;
+        margin: 0 2%;
+    }
+    #projets .projets-card {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    #softskills .softskills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact form {
+        width: 90%;
+    }
+    #contact input, #contact textarea {
+        font-size: 2.5vw;
+    }
+    button {
+        font-size: 3vw;
+        color: white;
+    }
+    #services h2 {
+        font-size: 6vw;
+    }
+    .services-card {
+        width: 90%;
+        margin: 5% auto;
+    }
+    .services-card h3 {
+        font-size: 4vw;
+    }
+    .services-card p {
+        font-size: 3vw;
+    }
+}
