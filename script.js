@@ -54,3 +54,19 @@ window.onload = function() {
     animateProgressBar("progress5", 90, 4000);
     animateProgressBar("progress6", 75, 5000);
 };
+document.querySelector('a[href="#projets"]'). addEventListener('click' ,
+    function(e) {
+        e.preventDefault();
+        document.querySelector('#projets').scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+);
+const form = document.getElementById('contactForm');
+form.addEventListener('submit',
+    function(event) {
+        event.preventDefault();
+        alert("Message envoyé!");
+        form.reset();
+    }
+);
